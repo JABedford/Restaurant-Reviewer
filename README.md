@@ -1,4 +1,4 @@
-# FEND Restaurant Review App
+# Restaurant Reviewer
 
 ![preview](http://i67.tinypic.com/1y1xyv.png)
 
@@ -7,7 +7,7 @@ adding some offline functionality to a mobile friendly web application.
 
 The aim of this project was to create a Restaurant review application, where the user can locate local eateries and read the concerning reviews.
 
-## Get Started
+## Getting Started
 
 ### For Users
 
@@ -17,7 +17,7 @@ Use the dropdown lists to filter your result.
 
 Click on the desired restaurant where you can find several pieces of information, the address, opening hours and reviews.
 
-### For Developers
+### Development
 
 - Clone the repository
 - Go to the folder: `cd fend-restaurant-review-app`
@@ -27,11 +27,9 @@ Click on the desired restaurant where you can find several pieces of information
 
 `python -m SimpleHTTPServer 8000`
 
-
 **Python 3**
 
 `python -m http.server 8000`
-
 
 - Go to _localhost:8000_ to open the website.
 - The main HTML page is _/index.html_
