@@ -333,13 +333,20 @@ header .skip-link:focus {
   color: #666;
 }
 
+
+
 /* ====================== Media Queries: 480px; ====================== */
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   .filter-options {
     display: block;
   }
   #neighborhoods-select {
     margin: 0 20px 10px 0;
+  }
+  #restaurants-list li {
+    padding: 0 30px 10px 30px;
+    margin: 15px;
+    width: auto;
   }
 }
 
@@ -351,10 +358,6 @@ header .skip-link:focus {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-  }
-  #restaurants-list li {
-    padding: 0 30px 10px 30px;
-    margin: 15px;
   }
   #restaurant-container, #reviews-container {
     padding: 20px 11px;
